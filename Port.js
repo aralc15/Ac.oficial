@@ -1,3 +1,14 @@
+function baixarCurriculo() {
+    const link = document.createElement('a');
+    link.href = 'AssetsPortifolio/Curriculo-AnaClaraAraujo.pdf';
+    link.download = 'Curriculo-AnaClaraAraujo.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+
+
 
 function enviarWhats(event) {
     event.preventDefault();

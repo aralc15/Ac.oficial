@@ -259,17 +259,21 @@ h1{
 
 #Curriculo{
     display: inline-block;
+    font-size: 1.2rem;
+    text-decoration: none;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background: linear-gradient(45deg, var(--cor--primaria), var(--cor--secundaria));
     color: var(--cor--clara);
     border-radius: 8px;
     transition: all 0.3s ease;
+    border: none;
 }
 
 #Curriculo:hover{
     transform: translateY(-4px);
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+    font-weight: bold;
 }
 
 
@@ -404,6 +408,3 @@ h1{
     transform: translateY(-4px);
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
 }
-
-
-
