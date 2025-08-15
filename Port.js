@@ -8,6 +8,13 @@ function baixarCurriculo() {
 }
 
 
+window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("loader").classList.add("hide");
+    }, 2500); // tempo que a animação dura
+});
+
+
 
 
 function enviarWhats(event) {
