@@ -115,8 +115,10 @@ a{
 
 #loader {
     position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
     background: black;
     color: white;
     display: flex;
@@ -125,11 +127,28 @@ a{
     font-size: 2rem;
     transition: opacity 1s ease;
     z-index: 9999;
-  }
+    overflow: hidden; 
+}
+
+#loader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para cobrir toda a tela */
+    /* object-fit: contain; para manter proporção completa */
+}
+
+/* Ajuste específico para mobile */
+@media (max-width: 768px) {
+    #loader img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
 #loader.hide {
     opacity: 0;
     pointer-events: none;
-  }
+}
 
 .Navegacao{
     position: fixed;
