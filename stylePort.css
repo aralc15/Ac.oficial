@@ -258,6 +258,7 @@ h1{
 
 svg path {
     fill: var(--cor--clara);
+    
 }
 
 .skill-name {
@@ -269,6 +270,20 @@ svg path {
     font-size: 1.5rem;
     color: var(--cor--clara);
 
+}
+
+#likedin{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#linkedin:hover{
+    font-weight: bold;
+    color: var(--cor--primaria);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(106,17,203,0.15);
+    transition: box-shadow 0.2s;
 }
 
 .Sobre{
