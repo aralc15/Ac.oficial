@@ -247,10 +247,17 @@ h1{
     box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
 }
 
+
 .skill-icon {
     font-size: 2rem;
     display: block;
     margin-bottom: 0.5rem;
+    
+}
+
+
+svg path {
+    fill: var(--cor--clara);
 }
 
 .skill-name {
